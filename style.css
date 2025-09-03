@@ -64,6 +64,66 @@ header {
   color: #222;
 }
 
+/* ===== Home Section ===== */
+.home {
+  background: url("your-background.png") no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  color: #fff;
+}
+
+.home-text h2 {
+  font-size: 1.5rem;
+  color: #ffcc00;
+}
+
+.home-text h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.home-text .highlight {
+  color: #ff4081;
+}
+
+.home-text p {
+  max-width: 500px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff4081;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #e73370;
+}
+
+.home-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ffcc00;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
 /* ===== Sections ===== */
 section {
   padding: 80px 20px;
